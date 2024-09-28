@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Recycling Guide</title>
+    <link rel="stylesheet" href="services.css"> <!-- Link to your external CSS file -->
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h1, h2 {
+    font-weight: 600;
+    margin: 0 0 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+p {
+    line-height: 1.8;
+    font-size: 1rem;
+    margin: 0 0 20px;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #4caf50, #388e3c);
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Services Section */
+.services-section {
+    padding: 60px 0;
+    background-color: #f1f1f1;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.service {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.service-icon img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #4caf50;
+    margin-bottom: 10px;
+}
+
+.service p {
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #388e3c;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .services {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .services {
+        grid-template-columns: 1fr;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Our Services</h1>
+            <p>Your partner in sustainable recycling practices, committed to helping you reduce waste and promote environmental awareness.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section">
+        <div class="container">
+            <h2>What We Offer</h2>
+            <div class="services">
+                <div class="service">
+                    <div class="service-icon">
+                        <img src="Recycle001.svg" alt="Recycling Pickup">
+                    </div>
+                    <h3>Recycling Pickup</h3>
+                    <p>Regular pickup services for residential and commercial recycling, ensuring your materials are properly processed.</p>
+                </div>
+                <div class="service">
+                    <div class="service-icon">
+                        <img src="Recycle001.svg" alt="Education Programs">
+                    </div>
+                    <h3>Education Programs</h3>
+                    <p>Workshops and seminars to educate communities on effective recycling practices and waste reduction strategies.</p>
+                </div>
+                <div class="service">
+                    <div class="service-icon">
+                        <img src="Recycle001.svg" alt="Consultation Services">
+                    </div>
+                    <h3>Consultation Services</h3>
+                    <p>Personalized advice for businesses and organizations looking to improve their recycling efforts and sustainability.</p>
+                </div>
+                <div class="service">
+                    <div class="service-icon">
+                        <img src="Recycle001.svg" alt="E-Waste Recycling">
+                    </div>
+                    <h3>E-Waste Recycling</h3>
+                    <p>Specialized programs for the safe disposal and recycling of electronic waste, minimizing environmental impact.</p>
+                </div>
+                <div class="service">
+                    <div class="service-icon">
+                        <img src="Recycle001.svg" alt="Community Initiatives">
+                    </div>
+                    <h3>Community Initiatives</h3>
+                    <p>Engaging community events aimed at increasing recycling rates and promoting environmental stewardship.</p>
+                </div>
+                <div class="service">
+                    <div class="service-icon">
+                        <img src="Recycle001.svg" alt="Partnerships">
+                    </div>
+                    <h3>Partnerships</h3>
+                    <p>Collaborating with local businesses and organizations to foster a culture of recycling and sustainability.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Recycling Guide. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
